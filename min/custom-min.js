@@ -1,1 +1,1 @@
-(function($){$((function(){$("#index-banner").backstretch(["img/backgrounds/1.jpg","img/backgrounds/2.jpg","img/backgrounds/3.jpg","img/backgrounds/4.jpg","img/backgrounds/5.jpg"],{duration:3000,fade:750});$('.scrollspy').scrollSpy();$("*").bind("contextmenu",(function(n){return!1}));$('.parallax').parallax()}));})(jQuery);
+(function($){$((function(){$('.scrollspy').scrollSpy();$("*").bind("contextmenu",(function(n){return!1}));$('.parallax').parallax()}));})(jQuery);
