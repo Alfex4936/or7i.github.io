@@ -285,7 +285,16 @@
 		</ol>
 	</div> <!-- .events-content -->
 </section>
-	
+
+<div id="snackbar">키보드 방향키 ← / → 를 이용하여 보세요.</div>
+<script>
+function toast() {
+    var x = document.getElementById("snackbar")
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+toast();
+</script>
 <script src="min/history.js"></script>
 
 </body>
