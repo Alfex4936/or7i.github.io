@@ -1,4 +1,4 @@
-*,::after,::before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+*,*::after,*::before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 #index-banner{height:auto;min-height:740px;max-height:100%;max-width:100%;-webkit-background-size: cover;top:0;left:0;right:0;bottom:0;-moz-background-size: cover;-o-background-size: cover;background: no-repeat center center fixed;background-size: cover;
 background-image: url('../img/cf.png');}
 #master,#people{background:#f7f7f7}
