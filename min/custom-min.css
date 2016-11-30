@@ -1,7 +1,8 @@
 *,*::after,*::before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 ::selection {background:#795548;color: #FFF;text-shadow: none;}::-moz-selection {background:#795548;color: #FFF;text-shadow: none;}
 ::-webkit-selection {background:#795548;color: #FFF;text-shadow: none;}
-#index-banner{height:auto;min-height:740px;max-height:100%;max-width:100%;-webkit-background-size: cover;top:0;left:0;right:0;bottom:0;-moz-background-size: cover;-o-background-size: cover;background: no-repeat center center fixed;background-size: cover;
+#index-banner{height:auto;min-height:720px;max-height:100%;max-width:100%;-webkit-background-size: cover;top:0;left:0;right:0;
+bottom:0;-moz-background-size: cover;-o-background-size: cover;background: no-repeat center center fixed;background-size: cover;
 background-image: url('../img/cf.png');}
 #master,#people{background:#f7f7f7}
 .default_color{background-color:#795548 !important}.default_color_text{color:#795548 !important}.footer_color{background-color: #6D4C41 !important}
