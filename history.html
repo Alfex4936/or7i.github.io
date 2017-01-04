@@ -58,7 +58,12 @@
           ['12월 8일',  101],
           ['12월 16일',  83]
         ]);
-
+		
+        var data2 = google.visualization.arrayToDataTable([
+          ['날짜', '인구 (명)'],
+          ['1월 4일',  75]
+        ]);
+		
         var options = {
           title: '인구 그래프',
           vAxis: {minValue: 0}
@@ -66,10 +71,16 @@
 
         var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
         chart.draw(data, options);
+		
+		var chart2 = new google.visualization.AreaChart(document.getElementById('chart_div2'));
+        chart2.draw(data2, options);
       }
     </script>
   </head>
   <body>
+    <p style="color:black;display:inline;font-size:55px;"><b>2016</b></p>
     <div id="chart_div" style="width: 100%; height: 500px;"></div>
+	<p style="color:black;display:inline;font-size:55px;"><b>2017</b></p>
+    <div id="chart_div2" style="width: 100%; height: 500px;"></div>
   </body>
 </html>
